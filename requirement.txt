@@ -1,0 +1,11 @@
+streamlit==1.24.0       # For building the interactive dashboard
+pandas==2.1.1           # For data manipulation and analysis
+requests==2.31.0        # For making HTTP requests to APIs
+transformers==4.34.0    # For loading Hugging Face models
+onnx==1.14.0            # For exporting models to ONNX format
+onnxruntime==1.15.1     # For running ONNX models
+google-api-python-client==2.96.0  # For accessing Google Sheets API
+google-auth==2.23.4     # For authentication with Google APIs
+google-auth-oauthlib==1.1.0  # For OAuth authentication (optional)
+google-auth-httplib2==0.1.0  # Required for Google API HTTP requests
+numpy==1.25.2           # Required by ONNX Runtime for tensor operations
